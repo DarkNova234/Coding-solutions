@@ -16,9 +16,13 @@ int main()
     
     {   
         if (n <= 9)
-            {printf("%s\n", words[n]);}
+            {
+                printf("%s\n", words[n]);
+            }
         else if (n > 9 && n%2==0) 
-            {printf("even\n");}
+            {
+                printf("even\n");
+            }
         else 
             printf("odd\n");
        

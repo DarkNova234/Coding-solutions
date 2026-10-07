@@ -52,7 +52,7 @@ Print the appropriate English representation,`even`, or `odd`, based on the cond
 **Language:** C  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T13:17:06.558Z  
+**Submitted:** 2026-10-07T13:19:21.558Z  
 
 ```c
 #include <stdio.h>
@@ -73,9 +73,13 @@ int main()
     
     {   
         if (n <= 9)
-            {printf("%s\n", words[n]);}
+            {
+                printf("%s\n", words[n]);
+            }
         else if (n > 9 && n%2==0) 
-            {printf("even\n");}
+            {
+                printf("even\n");
+            }
         else 
             printf("odd\n");
        
